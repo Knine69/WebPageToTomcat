@@ -16,7 +16,7 @@
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
   </properties>
 
-  <settings>
+  <!--<settings>
     <pluginGroups>
       <pluginGroup>org.sonarsource.scanner.maven</pluginGroup>
     </pluginGroups>
@@ -27,14 +27,14 @@
           <activeByDefault>true</activeByDefault>
         </activation>
         <properties>
-          <!-- Optional URL to server. Default value is http://localhost:9000 -->
+          <!-- Optional URL to server. Default value is http://localhost:9000
           <sonar.host.url>
             http://myserver:9000
           </sonar.host.url>
         </properties>
       </profile>
     </profiles>
-  </settings>
+  </settings> -->
 
   <modules>
     <module>server</module>
